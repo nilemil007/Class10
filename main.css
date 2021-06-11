@@ -59,6 +59,11 @@
 .fa-bus{
   color: #716e6e;
 }
+#datepicker{
+  margin: 0;
+  border: 1px solid #ffffff;
+}
+
 
 /* Service Section CSS */
 .service-item .icon i{

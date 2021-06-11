@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/cc2d6331a5.js" crossorigin="anonymous"></script>
+    <!-- jQuery UI CSS -->
+    <link rel="stylesheet" href="jquery-ui.min.css">
+    <link rel="stylesheet" href="jquery-ui.theme.min.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <!-- Main CSS -->
@@ -17,7 +20,7 @@
   </head>
   <body>
 
-    <!-- Navbar -->
+    <!-- Navbar Section -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
       <div id="gutter" class="container-fluid">
         <a class="navbar-brand brand" href="index.html">
@@ -49,7 +52,7 @@
       </div>
     </nav>
 
-    <!-- Booking -->
+    <!-- Booking Section -->
     <div class="booking-area">
       <div class="container">
         <div class="row">
@@ -85,10 +88,10 @@
                 <div class="col-6 mb-3">
                   <label>Date</label>
                   <div class="input-group">
-                    <input type="date" class="form-control fc" placeholder="11/06/2021">
-                    <span class="input-group-text bg-white">
+                    <input type="text" id="date" class="form-control fc" placeholder="11/06/2021">
+                    <label id="datepicker" for="date" class="input-group-text bg-white">
                       <i class="far fa-calendar-alt"></i>
-                    </span>
+                    </label>
                   </div>
                 </div>
                 <div class="col-6 mb-3">
@@ -226,10 +229,13 @@
     </footer>
 
 
-
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- jQuery UI JS -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- Main JS -->
     <script src="main.js"></script>
   </body>
 </html>

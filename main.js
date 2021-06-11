@@ -1,5 +1,8 @@
 jQuery(document).ready(function(){
 
+  // Booking Area datepicker
+  jQuery('#date').datepicker();
+
   // Window Normal State
   screenWidth = jQuery(window).width();
   if(screenWidth <= 418){
